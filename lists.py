@@ -46,6 +46,7 @@ popped_apellido = apellidos.pop()
 
 print(f"El usuario eliminado es {popped_name} {popped_apellido}")
 
+
 motorcycles = ['honda', 'yamaha', 'suzuki']
 first_owned = motorcycles.pop(0) #Elimina el valor Honda y lo guarda en la variable first_owned
 print(f"The first motorcycle I owned was a {first_owned.title()}.")
