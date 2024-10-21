@@ -41,10 +41,12 @@ print(names)
 print(apellidos)
 
 #Borrar el último elemento de la lista, pero guardando la memoria
-
-
 popped_name = names.pop()
 popped_apellido = apellidos.pop()
 
 print(f"El usuario eliminado es {popped_name} {popped_apellido}")
 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+first_owned = motorcycles.pop(0) #Elimina el valor Honda y lo guarda en la variable first_owned
+print(f"The first motorcycle I owned was a {first_owned.title()}.")
+print(motorcycles[0]) #al haber sido borrado honda, ahora yamaha pasa a tener la primera posición
