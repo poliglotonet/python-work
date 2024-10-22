@@ -47,7 +47,19 @@ popped_apellido = apellidos.pop()
 print(f"El usuario eliminado es {popped_name} {popped_apellido}")
 
 
-motorcycles = ['honda', 'yamaha', 'suzuki']
+
+# Cuando se usa pop() el item de la lista desaparece
+
+motorcycles = ['honda', 'yamaha', 'suzuki'] #Establecemos una lista de motos con 3 marcas
 first_owned = motorcycles.pop(0) #Elimina el valor Honda y lo guarda en la variable first_owned
 print(f"The first motorcycle I owned was a {first_owned.title()}.")
 print(motorcycles[0]) #al haber sido borrado honda, ahora yamaha pasa a tener la primera posición
+
+
+# Cuando no sabemos la posición de un item pero sabemos su valor (o nombre, en el caso de un String), podemos usar el método .remove()
+
+motorcycles.append('kawasaki') #Añadimos la moto kawasaki
+print(motorcycles) #Mostramos el listado completo de motos
+
+motorcycles.remove('kawasaki') #Borramos la moto con el nombre "kawasaki"
+print(motorcycles) #Volvemos a mostrar el listado completo de motos 
