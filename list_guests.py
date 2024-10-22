@@ -65,5 +65,3 @@ print(f"Hello, {guest_list[1]}, you are still in!")
 #Borro los dos últimos y muestro la lista vacía por pantalla
 del guest_list[0]
 del guest_list[1]
-
-
